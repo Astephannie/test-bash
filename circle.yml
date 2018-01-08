@@ -1,0 +1,10 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./scripts/deploy.sh app
